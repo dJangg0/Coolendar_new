@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Coolendar"
         tools:targetApi="31">
+        <activity
+            android:name=".AlarmSet"
+            android:exported="false" />
         <activity
             android:name=".StartingActivity"
             android:exported="true">
@@ -38,6 +43,13 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
     </application>
 
 </manifest>
