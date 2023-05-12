@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="alarm">
+        <item name="android:layout_width">58dp</item>
+        <item name="android:layout_height">61dp</item>
+        <item name="android:layout_marginTop">340dp</item>
+        <item name="android:layout_marginEnd">56dp</item>
+        <item name="android:background">@drawable/alarm2</item>
+    </style>
+</resources>
